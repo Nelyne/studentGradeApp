@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Student Grading App</title>
+</head>
+<body>
+    
+        <section>
+     <div class="main">
+        <div class="head">
+            <h2>Student Grading App</h2>
+        </div>
+        <input type="text" id="maths"  placeholder="Mathematics"> <br>
+        
+        <input type="text" id="eng" placeholder="English"> <br>
+       
+        <input type="text" id="bio"  placeholder="Biology"> <br>
+        
+        <input type="text" id="phy" placeholder="Physics"> <br>
+        
+        <input type="text" id="chem"  placeholder="Chemistry"> <br>
+
+        <button class="btn" onclick="Total()">Total</button>
+        <button class="btn" onclick="Average()">Average</button>
+        <button class="btn" onclick="Grade()">Grade</button>
+    </div>
+
+     <div id="result">
+         <div id="head1"><h2>Total</h2></div>
+         <div id="total">
+
+         </div>
+         <div id="head2"><h2>Average</h2></div>
+         <div id="avg">
+             
+         </div>
+         <div id="head3"><h2>Grade</h2></div>
+         <div id="grade">
+             
+         </div>
+     </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
